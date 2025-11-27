@@ -13,7 +13,7 @@ services:
       - GENERIC_TIMEZONE=Europe/Berlin
       - N8N_BASIC_AUTH_ACTIVE=true
       - N8N_BASIC_AUTH_USER=Lothararens
-      - N8N_BASIC_AUTH_PASSWORD=Lothararens2014@
+      - N8N_BASIC_AUTH_PASSWORD="Lothararens2014@"
     volumes:
       - ./n8n:/home/node/.n8n
 
